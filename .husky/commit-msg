@@ -1,10 +1,1 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-echo "Ejecutando commitlint..."
-npx --no -- commitlint --edit "$1"
-RESULT=$?
-
-echo "Resultado commitlint: $RESULT"
-[ $RESULT -ne 0 ] && exit 1
-exit 0
+npx --no -- commitlint --edit $1

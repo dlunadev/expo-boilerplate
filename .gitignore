@@ -35,4 +35,8 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-app-example
+# Documentation
+MIGRATION_GUIDE.md
+
+# Examples
+src/examples/
